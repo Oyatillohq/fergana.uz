@@ -1,30 +1,37 @@
-.Uzbekistan-card{
+.Uzbekistan-card {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     height: auto;
-    &__text-wrapper{
+
+    &__text-wrapper {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
     }
 }
+
 .Uzbekistan-text-wrap {
+    width: 100%;
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0 20px;
+
     h1 {
         font-weight: 700;
         font-size: 24px;
         color: #000;
     }
+
     a {
-        text-decoration: underline;
+        text-decoration: none;
         font-weight: 400;
         font-size: 18px;
         color: #2F80ED;
         display: inline;
     }
 }
+
 .uz-lin {
     height: 2px;
     background-color: #0000001A;
@@ -53,6 +60,7 @@
     align-items: center;
     gap: 20px;
     margin-top: auto;
+
     h2 {
         font-weight: 400;
         font-size: 12px;
@@ -75,29 +83,35 @@
     justify-content: center;
     padding: 30px 0;
 }
+
 .Uzbekistan {
     padding: 64px 0;
-    
+
 }
 
 @media screen and (max-width: 360px) {
     .Uzbekistan {
         padding: 30px 0;
     }
+
     .Uzbekistan-text-wrap {
         h1 {
             font-size: 18px;
         }
+
         a {
             font-size: 14px;
         }
     }
+
     .Uzbekistan-card {
         width: 100%;
     }
+
     .prisdent-card-img {
         width: 100%;
     }
+
     .Uz-desc {
         width: 100%;
     }
@@ -107,7 +121,8 @@
     .Uzbekistan-text-wrap {
         flex-direction: column;
     }
-    .time-info  {
+
+    .time-info {
         flex-direction: column;
     }
 }

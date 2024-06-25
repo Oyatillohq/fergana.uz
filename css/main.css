@@ -103,6 +103,10 @@ header nav ul li a:hover {
   color: #DFAD2A;
 }
 
+.prisdent-card-img {
+  height: 170px;
+}
+
 .prisdent-title {
   width: 600px;
   font-weight: 700;
@@ -269,9 +273,11 @@ header nav ul li a:hover {
 }
 
 .Uzbekistan-text-wrap {
+  width: 100%;
   display: inline-flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 .Uzbekistan-text-wrap h1 {
   font-weight: 700;
@@ -279,7 +285,7 @@ header nav ul li a:hover {
   color: #000;
 }
 .Uzbekistan-text-wrap a {
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: 400;
   font-size: 18px;
   color: #2F80ED;
